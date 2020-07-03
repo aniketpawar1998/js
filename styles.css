@@ -1,0 +1,78 @@
+.{
+	margin: 0;padding: 0;
+	outline:0;border: 0;
+	user-select: none;
+	box-sizing: border-box;
+	font-family: 'Orbitron', sans-serif;
+
+}
+
+body{
+	height : 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:#1d1c1c;
+}
+
+.container{
+	position: relative;
+	width : 450px;
+	height : 450px;
+	text-align : center;
+	border-radius: 50%;
+	box-shadow:6px 6px 10px #00000033,
+				inset 6px 6px 10px #ffffff0f;
+				
+	
+			
+}			
+
+
+.container h3{
+background-image : linear-gradient(35deg, #f00000, #f00000 16.67%, #ff8000 16.67%, #ff8000 33.33%, #ffff00 33.33%, #ffff00 50%, #007940 50%, #007940 66.67%, #4040ff 66.67%, #4040ff 83.33%, #a000c0 83.33%, #a000c0);
+border-radius: 4px;
+text-transform:uppercase;
+letter-spacing:3px;
+margin-top: 90px;
+margin-left: 100px;
+font-size:28px;
+width : 250px;
+
+}
+
+
+.container p {
+
+margin-top : 65px;
+color: #fa4700;
+font-size:58px;
+text-align:center;
+
+}
+
+
+
+
+.container button{
+
+cursor: pointer;
+margin:70px 5px 0;
+width : 80px;
+height : 35px;
+background: transparent;
+color : red;
+border :1px solid #fa4700;
+border-radius: 4px;
+font-size : 14px ;
+letter-spacing:2px;
+transition:all .4s;
+
+}
+
+.container button:hover {
+
+background : linear-gradient(135deg, orange, orange 60%, cyan);
+color : #1d1c1c;
+
+}
